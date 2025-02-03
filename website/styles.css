@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 100px;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #483d8b;
+}
+
+section.profile {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #ffffff2a;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+   
+}
+
+section.profile .content {
+    width: 50%;
+    margin-top: 100;
+}
+
+section.profile h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #6a5acd;
+}
+
+section.profile h3 em {
+    font-size: 20px;
+    color: #483d8b;
+}
+
+section.profile .profile-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: left;  /* Center the text */
+      /* Add padding to slightly shift it left */
+    padding-right: 10px; /* Optional: Adjust the right padding to balance */
+    color: #360d6b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.profile .right-image {
+    width: 40%;
+ 
+}
+
+section.profile .profile-img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  
+}
+
+section.family {
+    text-align: center;
+    margin: 40px 0;
+}
+
+section.family h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #6a5acd;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section.family .family-members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+section.family .family-member {
+    text-align: center;
+    max-width: 200px;
+    transition: transform 0.3s ease;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+section.family .family-member:hover {
+    transform: scale(1.05);
+}
+
+section.family .family-member a {
+    display: block;
+    text-align: center;
+    color: inherit;
+}
+
+section.family .family-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+section.family .family-member img:hover {
+    transform: scale(1.05);
+}
+
+section.family .family-member h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6a5acd;
+    margin-top: 10px;
+}
+
+section.family .family-member p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+    font-style: italic;
+}
